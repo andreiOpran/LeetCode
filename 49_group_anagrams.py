@@ -23,7 +23,7 @@ class Solution:
 '''
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        hash = {}
+        hash = defaultdict(list)
         for str in strs:
             count = [0] * 26
             for c in str:
