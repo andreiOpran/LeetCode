@@ -4,6 +4,7 @@ import collections
 from collections import Counter
 from typing import List
 
+
 class Solution:
     """
     [abc, abcd] -> 3#abc4#abcd
